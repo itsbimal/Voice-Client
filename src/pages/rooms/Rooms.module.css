@@ -1,0 +1,73 @@
+.roomHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(194, 197, 221, 0.4);
+    backdrop-filter: blur(1px);
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.heading:after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 60%;
+    height: 4px;
+    background-color: aliceblue;
+}
+
+.search{
+    /* background: rgb(95, 82, 242); */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    min-width: 300px;
+    border-radius: 20px; 
+    height: 35px;
+}
+
+.searchInput{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    width: 500px;
+}
+
+::placeholder{
+    color: rgb(234, 230, 230);
+}
+
+.roomBtn{
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: azure;
+}
+
+.roomBtn:hover{
+    background: linear-gradient(to right, #d9311e, #cf971d);
+    transition: all 0.5s ease-in-out;
+}
+
+.roomList{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 20px;
+}

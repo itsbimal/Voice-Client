@@ -1,0 +1,96 @@
+.userHead{
+    background: rgb(219, 219, 219);
+    border: 7px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.userAvatar{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.goBack{
+    display: flex;
+}
+
+
+.backBtn{
+    display: flex;
+    background: none;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.clientWrap{
+    background-color: rgba(11, 36, 147, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    margin-top: 3rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    min-height: calc(100vh - 205px);
+    padding: 50px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+}
+
+.btnLeave{
+    background: red;
+    color: white;
+    padding: 7px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.btnLeave:hover{
+    background: rgb(119, 8, 8);
+    transition: 0.3s all ease-in-out;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clientsList{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.micBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    box-sizing: content-box;
+    border-radius: 30px;
+    background: white;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba(red, green, blue, alpha);
+}
+
+/* .micBtn:hover{
+    background: rgb(186, 181, 181);
+    transition: all 0.3s ease-in-out;
+} */

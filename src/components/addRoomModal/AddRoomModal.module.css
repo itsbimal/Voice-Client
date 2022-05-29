@@ -1,0 +1,72 @@
+.modalMask{
+    position:fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.roomTypeHead{
+    align-items: center;
+    justify-content: center;
+}
+
+.modalBody{
+    position: relative;
+    width: 50%;
+    max-width: 450px;
+    background: rgb(59, 15, 164);
+    border-radius: 10px;
+}
+
+.modalHeader{
+    padding: 30px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.modalHeader h5{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.roomType{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.modalFooter p{
+    margin: 10px;
+
+}
+.modalFooter{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.typeBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 7px;
+    border-radius: 7px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.typeBox.active{
+    background: rgb(62, 69, 214);
+}
+
+.closeBtn{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background: transparent;
+    color: wheat;
+    
+}

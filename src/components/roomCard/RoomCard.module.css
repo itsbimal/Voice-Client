@@ -1,0 +1,60 @@
+.card{
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(13, 38, 205, 0.4);
+    backdrop-filter: blur(5px);
+
+}
+
+.speakers{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+.left img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgb(251, 251, 251);
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1d1d1d;
+}
+
+.left img:last-child{
+    top: 25px;
+    left: 18px;
+
+}
+
+.nameWrapper{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.nameWrapper span{
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.peopleCount{
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.singleSpeaker .left img{
+    /* margin-top: 20px; */
+    position: initial;
+}
+
+.singleSpeaker .nameWrapper{
+    margin-left: 50px;
+}

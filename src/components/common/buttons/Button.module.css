@@ -1,0 +1,21 @@
+.button{
+    background-color: white;
+    padding: 7px 40px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* color: blue; */
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.button:hover{
+    background-color: rgb(197, 191, 191);
+}
